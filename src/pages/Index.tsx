@@ -22,9 +22,11 @@ const Index = () => {
             </div>
           </div>
           <div className="flex gap-3">
-            <Button variant="outline" className="hidden md:flex items-center gap-2 border-blue-200/60 text-blue-700 hover:bg-blue-50/80 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-lg">
-              <MessageCircle size={18} />
-              WhatsApp
+            <Button variant="outline" className="hidden md:flex items-center gap-2 border-blue-200/60 text-blue-700 hover:bg-blue-50/80 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-lg" asChild>
+              <a href="https://wa.me/07841511062">
+                <MessageCircle size={18} />
+                WhatsApp
+              </a>
             </Button>
             <Button className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 shadow-xl shadow-blue-500/25 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/30">
               <Calendar className="mr-2" size={18} />
@@ -75,9 +77,11 @@ const Index = () => {
               Book Your Free 30-Minute Audit Call
               <ArrowRight className="ml-3 group-hover:translate-x-1 transition-transform duration-300" size={24} />
             </Button>
-            <Button size="lg" variant="outline" className="group text-xl px-12 py-8 border-2 border-blue-200/60 text-blue-700 hover:bg-blue-50/80 shadow-xl backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <MessageCircle className="mr-3 group-hover:bounce transition-transform duration-300" size={28} />
-              Message on WhatsApp
+            <Button size="lg" variant="outline" className="group text-xl px-12 py-8 border-2 border-blue-200/60 text-blue-700 hover:bg-blue-50/80 shadow-xl backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-2xl" asChild>
+              <a href="https://wa.me/07841511062">
+                <MessageCircle className="mr-3 group-hover:bounce transition-transform duration-300" size={28} />
+                Message on WhatsApp
+              </a>
             </Button>
           </div>
           
