@@ -348,7 +348,7 @@ const Index = () => {
           </Badge>
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-10">Affordable, Transparent Pricing</h2>
           <p className="text-2xl md:text-3xl text-gray-600 leading-relaxed font-light">
-            Packages from just <strong className="text-blue-600 text-4xl font-bold">£XX/month</strong> or flexible one-off help — 
+            Packages starting from just <strong className="text-blue-600 text-4xl font-bold">£60/Month</strong> or flexible one-off help — 
             no long contracts, just support when you need it.
           </p>
         </div>
