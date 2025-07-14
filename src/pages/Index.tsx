@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-x-hidden">
       {/* Enhanced Header with Glass Effect */}
-      <header className="bg-white/70 backdrop-blur-xl border-b border-gray-100/50 sticky top-0 z-50 shadow-sm">
+      <header className="bg-white/80 backdrop-blur-2xl border-b border-gradient-to-r from-blue-100/50 to-purple-100/50 sticky top-0 z-50 shadow-lg shadow-blue-500/5">
         <div className="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <div className="relative">
@@ -28,21 +28,25 @@ const Index = () => {
                 WhatsApp
               </a>
             </Button>
-            <Button className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 shadow-xl shadow-blue-500/25 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/30">
-              <Calendar className="mr-2" size={18} />
-              Book Free Audit
+            <Button className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 shadow-xl shadow-blue-500/25 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/30" asChild>
+              <a href="https://calendly.com/larissa-easybusinessaccounting">
+                <Calendar className="mr-2" size={18} />
+                Book Free Audit
+              </a>
             </Button>
           </div>
         </div>
       </header>
 
       {/* Enhanced Hero Section with Floating Elements */}
-      <section className="relative py-32 overflow-hidden">
-        {/* Animated Background Elements */}
+      <section className="relative py-36 overflow-hidden">
+        {/* Enhanced Animated Background Elements */}
         <div className="absolute inset-0">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-blue-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-indigo-400/10 to-cyan-400/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-blue-400/5 to-purple-400/5 rounded-full blur-3xl"></div>
+          <div className="absolute top-20 left-10 w-80 h-80 bg-gradient-to-r from-blue-400/15 via-purple-400/10 to-pink-400/15 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-[28rem] h-[28rem] bg-gradient-to-r from-indigo-400/12 via-cyan-400/8 to-emerald-400/12 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+          <div className="absolute top-1/3 left-1/3 w-96 h-96 bg-gradient-to-r from-yellow-400/8 to-orange-400/8 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '4s' }}></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-blue-400/6 via-indigo-400/4 to-purple-400/6 rounded-full blur-3xl"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/30 to-transparent"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
@@ -72,10 +76,12 @@ const Index = () => {
           </div>
           
           <div className="animate-fade-in flex flex-col sm:flex-row gap-6 justify-center mb-20" style={{ animationDelay: '0.6s' }}>
-            <Button size="lg" className="group bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 text-xl px-12 py-8 shadow-2xl shadow-blue-500/25 transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-blue-500/30">
-              <Calendar className="mr-3 group-hover:rotate-12 transition-transform duration-300" size={28} />
-              Book Your Free 30-Minute Audit Call
-              <ArrowRight className="ml-3 group-hover:translate-x-1 transition-transform duration-300" size={24} />
+            <Button size="lg" className="group bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 text-xl px-12 py-8 shadow-2xl shadow-blue-500/25 transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-blue-500/30" asChild>
+              <a href="https://calendly.com/larissa-easybusinessaccounting">
+                <Calendar className="mr-3 group-hover:rotate-12 transition-transform duration-300" size={28} />
+                Book Your Free 30-Minute Audit Call
+                <ArrowRight className="ml-3 group-hover:translate-x-1 transition-transform duration-300" size={24} />
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="group text-xl px-12 py-8 border-2 border-blue-200/60 text-blue-700 hover:bg-blue-50/80 shadow-xl backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-2xl" asChild>
               <a href="https://wa.me/07841511062">
@@ -279,10 +285,12 @@ const Index = () => {
               Not sure what state your books are in? Book a <strong className="font-bold">free 30-minute bookkeeping health check</strong>. 
               I'll review your records, flag any quick wins, and give you practical next steps — with zero pressure.
             </p>
-            <Button size="lg" className="group bg-white text-blue-600 hover:bg-gray-100 text-2xl px-16 py-8 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-3xl">
-              <Calendar className="mr-4 group-hover:rotate-12 transition-transform duration-300" size={28} />
-              Book Your Free Audit Now
-              <ArrowRight className="ml-4 group-hover:translate-x-1 transition-transform duration-300" size={28} />
+            <Button size="lg" className="group bg-white text-blue-600 hover:bg-gray-100 text-2xl px-16 py-8 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-3xl" asChild>
+              <a href="https://calendly.com/larissa-easybusinessaccounting">
+                <Calendar className="mr-4 group-hover:rotate-12 transition-transform duration-300" size={28} />
+                Book Your Free Audit Now
+                <ArrowRight className="ml-4 group-hover:translate-x-1 transition-transform duration-300" size={28} />
+              </a>
             </Button>
           </div>
         </div>
