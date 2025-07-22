@@ -23,7 +23,7 @@ const Index = () => {
           </div>
           <div className="flex gap-3">
             <Button variant="outline" className="hidden md:flex items-center gap-2 border-blue-200/60 text-blue-700 hover:bg-blue-50/80 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-lg" asChild>
-              <a href="https://wa.me/07841511062">
+              <a href="http://wa.me/447570561524">
                 <MessageCircle size={18} />
                 WhatsApp
               </a>
@@ -84,7 +84,7 @@ const Index = () => {
               </a>
             </Button>
             <Button size="lg" variant="outline" className="group text-xl px-12 py-8 border-2 border-blue-200/60 text-blue-700 hover:bg-blue-50/80 shadow-xl backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-2xl" asChild>
-              <a href="https://wa.me/07841511062">
+              <a href="http://wa.me/447570561524">
                 <MessageCircle className="mr-3 group-hover:bounce transition-transform duration-300" size={28} />
                 Message on WhatsApp
               </a>
