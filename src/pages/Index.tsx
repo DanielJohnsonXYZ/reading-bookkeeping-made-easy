@@ -60,9 +60,9 @@ const Index = () => {
           
           <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <h1 className="text-6xl md:text-8xl font-extrabold text-gray-900 mb-10 leading-tight tracking-tight">
-              Easy, Local Bookkeeping for<br />
+              Professional Bookkeeping &<br />
               <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent relative">
-                Reading's Small Businesses
+                Accounting Services
                 <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full"></div>
               </span>
             </h1>
@@ -70,8 +70,8 @@ const Index = () => {
           
           <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <p className="text-2xl md:text-3xl text-gray-600 mb-16 max-w-5xl mx-auto leading-relaxed font-light">
-              Simple, affordable support for sole traders, tradespeople, freelancers, cafés and shop owners — 
-              <span className="font-semibold text-blue-700">with someone who speaks your language.</span>
+              Expert bookkeeping and accounting support for Reading businesses — keep your finances organized, compliant, and stress-free
+              <span className="font-semibold text-blue-700"> with professional, personal service.</span>
             </p>
           </div>
           
@@ -79,7 +79,7 @@ const Index = () => {
             <Button size="lg" className="group bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 text-xl px-12 py-8 shadow-2xl shadow-blue-500/25 transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:shadow-blue-500/30" asChild>
               <a href="https://calendly.com/larissa-easybusinessaccounting">
                 <Calendar className="mr-3 group-hover:rotate-12 transition-transform duration-300" size={28} />
-                Book Your Free 30-Minute Audit Call
+                Book Your Free Bookkeeping Consultation
                 <ArrowRight className="ml-3 group-hover:translate-x-1 transition-transform duration-300" size={24} />
               </a>
             </Button>
@@ -135,9 +135,9 @@ const Index = () => {
               </Badge>
               <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-10 leading-tight">Meet Larissa</h2>
               <p className="text-2xl text-gray-600 leading-relaxed mb-10 font-light">
-                Hi, I'm <strong className="text-blue-700 font-bold">Larissa</strong>, a friendly, Reading-based bookkeeper offering no-fuss, 
-                affordable accounting help to small businesses. I work with people who want to stay compliant, 
-                save time, and understand their numbers — <span className="italic text-indigo-600">without the jargon or the stress.</span>
+                Hi, I'm <strong className="text-blue-700 font-bold">Larissa</strong>, a qualified bookkeeper and accountant serving Reading and Berkshire. 
+                I specialize in helping small businesses maintain accurate financial records, handle tax obligations, and make informed decisions — 
+                <span className="italic text-indigo-600">all with clear communication and personal attention.</span>
               </p>
               <div className="flex gap-6">
                 <Button className="group bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-lg px-8 py-6 shadow-xl transition-all duration-300 hover:scale-105">
@@ -162,48 +162,48 @@ const Index = () => {
               <Sparkles className="w-4 h-4 mr-2" />
               Our Services
             </Badge>
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight">Everything Your Business Needs</h2>
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight">Complete Bookkeeping & Accounting Solutions</h2>
             <p className="text-2xl text-gray-600 max-w-4xl mx-auto font-light">
-              From ongoing bookkeeping to one-off projects, we've got you covered with professional, reliable service.
+              From daily bookkeeping to annual accounts, we provide comprehensive financial services to keep your business running smoothly.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             {[
               { 
                 icon: Calculator, 
-                title: "Ongoing Bookkeeping", 
-                desc: "Monthly or quarterly bookkeeping services tailored to your business needs",
+                title: "Monthly Bookkeeping", 
+                desc: "Complete transaction recording, bank reconciliation, and financial reporting",
                 highlight: "Most Popular",
                 gradient: "from-blue-500 to-indigo-500"
               },
               { 
                 icon: FileText, 
-                title: "Self-Assessments", 
-                desc: "Tax returns handled with care and attention to detail",
+                title: "Annual Accounts & Tax Returns", 
+                desc: "Year-end accounts preparation and self-assessment tax returns filed accurately",
                 gradient: "from-emerald-500 to-cyan-500"
               },
               { 
                 icon: CheckCircle, 
-                title: "VAT Returns", 
-                desc: "Making Tax Digital compliance made simple and stress-free",
+                title: "VAT Registration & Returns", 
+                desc: "VAT compliance, quarterly returns, and Making Tax Digital setup",
                 gradient: "from-purple-500 to-pink-500"
               },
               { 
                 icon: Users, 
-                title: "Payroll & CIS", 
-                desc: "Employee and contractor payments managed professionally",
+                title: "Payroll & PAYE", 
+                desc: "Full payroll processing, RTI submissions, and employee record management",
                 gradient: "from-orange-500 to-red-500"
               },
               { 
                 icon: Clock, 
-                title: "Catch-up Projects", 
-                desc: "One-off cleanup and organization to get you back on track",
+                title: "Bookkeeping Catch-Up", 
+                desc: "Organize backlogged records and bring your books up to date",
                 gradient: "from-teal-500 to-blue-500"
               },
               { 
                 icon: Award, 
-                title: "Business Advice", 
-                desc: "Practical guidance to help your business grow and thrive",
+                title: "Management Accounts", 
+                desc: "Monthly profit & loss reports and cash flow forecasting for business insight",
                 gradient: "from-indigo-500 to-purple-500"
               }
             ].map((service, index) => (
@@ -236,26 +236,26 @@ const Index = () => {
               <CheckCircle className="w-4 h-4 mr-2" />
               Why Choose Us
             </Badge>
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8">Why Choose Easy Business Accounting?</h2>
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8">Why Choose Our Bookkeeping Services?</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-16">
             {[
               {
-                title: "Personal, local service",
-                desc: "Face-to-face or remote, always 1:1 support with a real person who cares about your success",
-                icon: Heart,
+                title: "Qualified & Experienced",
+                desc: "Professionally trained bookkeeper with years of experience across various business sectors",
+                icon: Award,
                 gradient: "from-pink-500 to-rose-500"
               },
               {
-                title: "Clear, honest pricing",
-                desc: "Simple packages with transparent pricing and no hidden extras or surprise fees",
+                title: "Accurate & Compliant",
+                desc: "Meticulous record-keeping ensuring HMRC compliance and audit-ready financial records",
                 icon: Shield,
                 gradient: "from-emerald-500 to-teal-500"
               },
               {
-                title: "Support you can trust",
-                desc: "No agencies, no AI chatbots, just Larissa providing reliable, professional service",
-                icon: Star,
+                title: "Local & Accessible",
+                desc: "Reading-based service with flexible meeting options and prompt, reliable communication",
+                icon: Heart,
                 gradient: "from-blue-500 to-indigo-500"
               }
             ].map((benefit, index) => (
@@ -280,9 +280,9 @@ const Index = () => {
             <div className="w-28 h-28 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-12 backdrop-blur-sm shadow-2xl">
               <Calendar className="w-14 h-14 text-white" />
             </div>
-            <h2 className="text-5xl md:text-6xl font-bold mb-10 leading-tight">Free Bookkeeping Health Check</h2>
+            <h2 className="text-5xl md:text-6xl font-bold mb-10 leading-tight">Free Bookkeeping Assessment</h2>
             <p className="text-2xl md:text-3xl mb-16 opacity-95 leading-relaxed font-light max-w-4xl mx-auto">
-              Not sure what state your books are in? Book a <strong className="font-bold">free 30-minute bookkeeping health check</strong>. 
+              Get a complimentary review of your current bookkeeping setup. Book a <strong className="font-bold">free 30-minute consultation</strong> to discuss your accounting needs.
               I'll review your records, flag any quick wins, and give you practical next steps — with zero pressure.
             </p>
             <Button size="lg" className="group bg-white text-blue-600 hover:bg-gray-100 text-2xl px-16 py-8 shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-3xl" asChild>
